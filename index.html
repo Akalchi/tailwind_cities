@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cities in the World</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="flex-col">    
@@ -13,34 +13,37 @@
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
-           
         </ul>
     </header>
-    <section>
-        <img src="./assets/img/new.york.webp" alt="" class="flex">
-    </section>
-    <section class="border-2 border-black flex items-center items-start gap- h-full py-2 px-4">
-        <h2 class="text-sm/10px] flex flex-col">Ranking - Most Visited</h2>
-        <ul class="text-white flex flex-col gap-3" width="20px">
-            <div class="bg-zinc-500"><li>New York</li></div>
-            <div class="bg-zinc-500"><li>London</li></div>
-            <div class="bg-zinc-500"><li>Tokyo</li></div>
-            <div class="bg-zinc-500"><li>Las Vegas</li></div>
-            <div class="bg-zinc-500"><li>Los Angeles</li></div>
-            <div class="bg-zinc-500"><li>Chicago</li></div>
-        </ul>
-    </section>
-    <aside>
-        <ul>
-            <div><li>New York</li></div>
-            <div><li>London</li></div>
-            <div><li>Tokyo</li></div>
-            <div><li>Las Vegas</li></div>
-            <div><li>Los Angeles</li></div>
-            <div><li>Chicago</li></div>
-        </ul>
+    <div class="flex flex-col gap-4"> 
+       <section>
+        <img src="./assets/img/new.york.webp" alt="New York" class="w-full">
+       </section>
 
+      <div class="flex gap-4">
+        <section class="border-2 border-black flex flex-col items-start gap-2 h-auto py-2 px-4 w-1/4">
+            <h2 class="text-xs">Ranking - Most Visited</h2>
+            <ul class="text-white flex flex-col gap-3">
+                <div class="bg-zinc-500"><li>New York</li></div>
+                <div class="bg-zinc-500"><li>London</li></div>
+                <div class="bg-zinc-500"><li>Tokyo</li></div>
+                <div class="bg-zinc-500"><li>Las Vegas</li></div>
+                <div class="bg-zinc-500"><li>Los Angeles</li></div>
+                <div class="bg-zinc-500"><li>Chicago</li></div>
+            </ul>
+        </section>
+        <aside class="border-2 border-gray-300 flex flex-col gap-2 py-2 px-4 w-3/4">
+             <ul class="text-gray-800 flex flex-wrap gap-3">
+                <div class="border-2 border-black w-/6"><li>New York</li></div>
+                <div class="border-2 border-black"><li>London</li></div>
+                <div class="border-2 border-black"><li>Tokyo</li></div>
+                <div class="border-2 border-black"><li>Las Vegas</li></div>
+                <div class="border-2 border-black"><li>Los Angeles</li></div>
+                <div class="border-2 border-black"><li>Chicago</li></div>
+            </ul>
+        </aside>
+      </div>
 
-    </aside>
+    </div>     
 </body>
 </html>
